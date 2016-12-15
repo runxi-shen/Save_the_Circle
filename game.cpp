@@ -126,7 +126,7 @@ void Game::instructions(){
 
     drawPanel(0,0,1200,900,Qt::black,0.65);
 
-    QString instruction = "Welcome to Save the Circle!\nYou are the circle running away from the rectangular attackers that hurt your life \nand the big-circle trouble makers that increase your size.\nYou have three lives in total and your color will remind you how many lives you have left.\nGood luck!";
+    QString instruction = "Welcome to Save the Circle!\nYou are the circle running away from the rectangular attackers that hurt your life \nand the big-circle trouble makers that increase your size.\nUse the direction keys on keyboard to control the circle's movement.\nYou have three lives in total and your color will remind you how many lives you have left.\nGood luck!";
     QGraphicsTextItem *text = new QGraphicsTextItem(instruction);
     QFont textFont("comic sans", 8);
     text->setFont(textFont);
